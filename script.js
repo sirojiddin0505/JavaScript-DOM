@@ -13,14 +13,14 @@
 
 // UYGA VAZIFA
 // 1
-// let text = document.getElementById("text");
-// let btn = document.getElementById("btn");
-// btn.addEventListener('click', function(){
-//     text.classList.add("color")
-// })
-// text.addEventListener("click", function(){
-//     btn.classList.add("btn")
-// })
+let text = document.getElementById("text");
+let btn = document.getElementById("btn");
+btn.addEventListener('click', function(){
+    text.classList.add("color")
+})
+text.addEventListener("click", function(){
+    btn.classList.add("btn")
+})
 
 
 // 2
