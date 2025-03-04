@@ -1,0 +1,15 @@
+.text-color{
+    color: red;
+}
+.color{
+    color: blue;
+    font-size: 25px;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
