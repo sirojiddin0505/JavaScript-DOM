@@ -40,7 +40,8 @@
 // btn.style.fontSize = "25px"
 
 
-// soat yaratish
+// soat yaratish👇
+
 // let hour = document.getElementById('hour')
 
 // function getHours(){
@@ -49,3 +50,51 @@
 //     setInterval(()=>getHours(), 100)
 // }
 // getHours()
+
+
+// input va button orqali ishlash👇
+
+// let textList = document.getElementById('textList')
+// let input = document.getElementById('input')
+
+// function Submit(){
+//     let li = document.createElement('li')
+//     let deleteBtn = document.createElement('button')
+//     deleteBtn.textContent = '❌'
+//     deleteBtn.classList.add("deletebtn")
+//     deleteBtn.onclick = function(){
+//         li.remove()
+//     }
+//     li.textContent = input.value;
+//     li.appendChild(deleteBtn)
+//     textList.appendChild(li)
+//     input.value = ''
+// }
+
+
+// homework
+// 1
+// let ul = document.getElementById("ul")
+// let li = document.createElement('li')
+// li.textContent = "dasturlash"
+// ul.appendChild(li)
+
+
+// 2
+let input = document.getElementById('input')
+let list = document.getElementById('inp--list')
+let btn = document.getElementById('btn')
+
+function SendMessage(){
+    let li = document.createElement('li')
+    let clear = document.createElement('button')
+    clear.textContent = 'clear'
+    btn.classList.add('style')
+    clear.onclick = function(){
+        li.remove()
+    }
+    li.textContent = input.value;
+    li.appendChild(clear)
+    list.appendChild(li)
+    input.value = ''
+}
