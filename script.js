@@ -80,21 +80,86 @@
 // ul.appendChild(li)
 
 
-// 2
-let input = document.getElementById('input')
-let list = document.getElementById('inp--list')
-let btn = document.getElementById('btn')
 
-function SendMessage(){
-    let li = document.createElement('li')
-    let clear = document.createElement('button')
-    clear.textContent = 'clear'
-    btn.classList.add('style')
-    clear.onclick = function(){
-        li.remove()
-    }
-    li.textContent = input.value;
-    li.appendChild(clear)
-    list.appendChild(li)
-    input.value = ''
+
+// let name = document.getElementById('name')
+// let email = document.getElementById('email')
+// let myForm = document.getElementById('myForm')
+// email.classList.add('input')
+// name.classList.add('input')
+
+
+// myForm.addEventListener('submit', function(e){
+//     e.preventDefault();
+//     console.log(name.value,email.value);  
+//     myForm.reset()
+// })
+
+
+// humMenu👇
+
+// let button = document.getElementById('btn')
+// let hum = document.querySelector('.humMenu')
+// button.addEventListener('click', function(e){
+//     hum.classList.toggle('menu')
+// })
+
+
+// uyga vazifa
+
+// 1
+// let input = document.getElementById('input')
+// let list = document.getElementById('inp--list')
+// let btn = document.getElementById('btn')
+// btn.classList.add('style')
+
+// function SendMessage(){
+//     let li = document.createElement('li')
+//     let clear = document.createElement('button')
+//     clear.textContent = 'clear'
+//     clear.onclick = function(){
+//         li.remove()
+//     }
+//     clear.classList.add('clear')
+//     li.textContent = input.value;
+//     li.appendChild(clear)
+//     list.appendChild(li)
+//     input.value = ''
+// }
+// input.addEventListener('keydown', function(e){
+//     if(e.key === 'Enter'){
+//         SendMessage()
+//     }
+// })
+
+
+// 2
+// let form = document.getElementById('form')
+// let inp = document.getElementById('form__inp')
+// let inps = document.getElementById('forms__inp')
+// form.addEventListener('submit', function(e){
+//     e.preventDefault()
+//     console.log(inp.value, inps.value);
+//     form.reset()
+// })
+
+
+// 3
+// let humMenu = document.querySelector('.humMenu')
+// let btn = document.getElementById('humBtn')
+
+// btn.addEventListener('click', function(e){
+//     humMenu.classList.toggle('humMenu')
+// })
+
+
+// 4 kalkulyator 
+let teng = document.getElementById('teng')
+
+function tenglik(e){
+    teng.value += e
 }
+function qoshish(){
+    teng.value = eval(teng.value) 
+}
+

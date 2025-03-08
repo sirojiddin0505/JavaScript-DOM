@@ -7,22 +7,66 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- <p id="text">javascript</p>
-    <button id="btn1">blue</button>
-    <button id="btn2">red</button> -->
-    <!-- <ul id="nav__list"></ul> -->
-    <!-- <button id="btn" onclick="hour()">soat nechi bo'ldi</button> -->
-    <!-- <p id="hour">00:00:00</p> -->
 
-    <!-- <input id="input" type="text">
-    <button id="button" onclick="Submit()">Send</button>
-    <ul id="textList"> </ul> -->
+    <!-- 1 -->
+    <!-- <input type="text" id="input" placeholder="matn kiriting">
+    <button onclick="SendMessage()" id="btn">save</button>
+    <ol id="inp--list"></ol> -->
 
-    <ul id="ul">dars jadvali</ul>
-     <input id="input" type="text">
-     <button id="btn" onclick=" SendMessage() ">Jo'natish</button>
-     <ul id="inp--list"></ul>
 
+    <!-- 2 -->
+    <!-- <form action="" id="form">
+        <label id="label">Ismingizni Kiriting</label>
+        <input type="text" id="form__inp">
+        <label id="label">Raqamingizni Kiriting</label>
+        <input type="number" id="forms__inp">
+        <button id="form__btn">Yuborish</button>
+    </form> -->
+
+    <!-- 3 -->
+    <!-- <button id="humBtn">≡</button>
+    <div class="humMenu menu">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Help</li>
+        </ul>
+    </div> -->
+
+    <!-- 4 -->
+    <div class="container">
+        <div class="cal__inp"><input class="inp" type="text" id="teng" readonly></div>
+        <div class="call">
+            <ul class="cal__list">
+                <li class="cal__item">
+                    <button onclick="tenglik('1')">1</button>
+                    <button onclick="tenglik('2')">2</button>
+                    <button onclick="tenglik('3')">3</button>
+                </li>
+                <li class="cal__item">
+                    <button onclick="tenglik('3')">4</button>
+                    <button onclick="tenglik('5')">5</button>
+                    <button onclick="tenglik('6')">6</button>
+                </li>
+                <li class="cal__item">
+                    <button onclick="tenglik('7')">7</button>
+                    <button onclick="tenglik('8')">8</button>
+                    <button onclick="tenglik('9')">9</button>
+                </li>
+                <li class="cal__item">
+                    <button onclick="tenglik('0')">0</button>
+                    <button onclick="tenglik('+')">+</button>
+                    <button onclick="tenglik('-')">-</button>
+                </li>
+                <li class="cal__item">
+                    <button onclick="tenglik('*')">*</button>
+                    <button onclick="tenglik('/')">/</button>
+                    <button onclick="qoshish()">=</button>
+                </li>
+            </ul>       
+        </div>
+    </div>
     <script src="./script.js" ></script>
 </body>
 </html>
