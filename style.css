@@ -1,5 +1,5 @@
 /* 1 */
-#input{
+/* #input{
     border: 1px solid black;
     border-radius: 4px;
     padding: 5px;
@@ -26,19 +26,43 @@
     background-color: rgb(90, 90, 237);
     color: white;
     cursor: pointer;
-}
+} */
 
 
 /* 2 */
+/* form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    padding:15px 0 6px 0;
+}
+input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    padding: 5px 15px;
+    margin: 10px auto;
+} */
 
 
 /* 3 */
+
+
+/* 4 */
 .container{
     background-color: rgb(212, 216, 217);
     max-width: 250px;
     padding: 10px 0;
     text-align: center;
     border-radius: 9px;
+    border: 2px solid rgb(125, 129, 129) ;
 }
 .inp{
     width: 180px;
@@ -50,10 +74,10 @@
 .cal__list{
     list-style: none;
     padding: 0;
-    margin: 15px;
+    margin: 15px 0;
 }
 .cal__item{
-    margin: 20px;
+    padding: 10px 40px;
 }
 button{
     background-color: rgb(125, 129, 129);

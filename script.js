@@ -105,6 +105,9 @@
 // })
 
 
+
+
+
 // uyga vazifa
 
 // 1
@@ -145,8 +148,8 @@
 
 
 // 3
-// let humMenu = document.querySelector('.humMenu')
 // let btn = document.getElementById('humBtn')
+// let humMenu = document.querySelector('.humMenu')
 
 // btn.addEventListener('click', function(e){
 //     humMenu.classList.toggle('humMenu')
